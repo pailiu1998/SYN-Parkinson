@@ -1,0 +1,234 @@
+{
+    "test_metrics": {
+        "f1": {
+            "n": 85,
+            "scenario6_mean": 0.8164000296598996,
+            "scenario6_std": 0.018259749457539172,
+            "original_mean": 0.8226593934584445,
+            "original_std": 0.020013250415325878,
+            "difference_mean": -0.006259363798545091,
+            "difference_std": 0.025841069281313765,
+            "difference_ci_95": [
+                -0.011833153307481813,
+                -0.000685574289608369
+            ],
+            "t_statistic": -2.233208006480846,
+            "p_value": 0.028193988947695064,
+            "cohens_d": -0.2422254176250892,
+            "significant_at_0.05": true,
+            "significant_at_0.01": false,
+            "significant_at_0.001": false
+        },
+        "auroc": {
+            "n": 85,
+            "scenario6_mean": 0.9349024827706698,
+            "scenario6_std": 0.0060970690823550135,
+            "original_mean": 0.9363658847458165,
+            "original_std": 0.008448195610691676,
+            "difference_mean": -0.0014634019751468001,
+            "difference_std": 0.009790728895643058,
+            "difference_ci_95": [
+                -0.00357521327092939,
+                0.0006484093206357896
+            ],
+            "t_statistic": -1.3780281031742319,
+            "p_value": 0.17185445724671367,
+            "cohens_d": -0.14946813365428024,
+            "significant_at_0.05": false,
+            "significant_at_0.01": false,
+            "significant_at_0.001": false
+        },
+        "balanced_accuracy": {
+            "n": 85,
+            "scenario6_mean": 0.872701726587578,
+            "scenario6_std": 0.015567272158594384,
+            "original_mean": 0.8632455922756843,
+            "original_std": 0.015635418829075334,
+            "difference_mean": 0.009456134311893767,
+            "difference_std": 0.022554930157243216,
+            "difference_ci_95": [
+                0.004591148590263781,
+                0.014321120033523753
+            ],
+            "t_statistic": 3.8652857745445144,
+            "p_value": 0.0002178602589863443,
+            "cohens_d": 0.4192491063359403,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": true
+        },
+        "accuracy": {
+            "n": 85,
+            "scenario6_mean": 0.8794561273901621,
+            "scenario6_std": 0.012002408042540947,
+            "original_mean": 0.8805067735962353,
+            "original_std": 0.01346887223968777,
+            "difference_mean": -0.0010506462060733096,
+            "difference_std": 0.016744785973694068,
+            "difference_ci_95": [
+                -0.004662412862225464,
+                0.0025611204500788445
+            ],
+            "t_statistic": -0.5784773493669234,
+            "p_value": 0.5644896824516381,
+            "cohens_d": -0.06274467811794471,
+            "significant_at_0.05": false,
+            "significant_at_0.01": false,
+            "significant_at_0.001": false
+        },
+        "precision": {
+            "n": 85,
+            "scenario6_mean": 0.8529906834991133,
+            "scenario6_std": 0.030493501373469244,
+            "original_mean": 0.8391430214103938,
+            "original_std": 0.030046439984647667,
+            "difference_mean": 0.013847662088719471,
+            "difference_std": 0.04177688209338223,
+            "difference_ci_95": [
+                0.0048365973919283385,
+                0.022858726785510604
+            ],
+            "t_statistic": 3.0559756941924157,
+            "p_value": 0.0030068913654164747,
+            "cohens_d": 0.3314671032119232,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": false
+        },
+        "recall": {
+            "n": 85,
+            "scenario6_mean": 0.7840633664162883,
+            "scenario6_std": 0.029172835107831148,
+            "original_mean": 0.8082712305797217,
+            "original_std": 0.032952679681103686,
+            "difference_mean": -0.024207864163433287,
+            "difference_std": 0.043017732228015616,
+            "difference_ci_95": [
+                -0.033486574033390046,
+                -0.014929154293476524
+            ],
+            "t_statistic": -5.188220492142291,
+            "p_value": 1.449219667121214e-06,
+            "cohens_d": -0.5627415233122804,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": true
+        }
+    },
+    "dev_metrics": {
+        "f1": {
+            "n": 85,
+            "scenario6_mean": 0.8121302952605144,
+            "scenario6_std": 0.013040912807675784,
+            "original_mean": 0.7984008309446887,
+            "original_std": 0.015766690851761862,
+            "difference_mean": 0.01372946431582574,
+            "difference_std": 0.019900492246445065,
+            "difference_ci_95": [
+                0.00943702758658708,
+                0.018021901045064403
+            ],
+            "t_statistic": 6.3606168665090825,
+            "p_value": 1.0033260838639105e-08,
+            "cohens_d": 0.6899057644304407,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": true
+        },
+        "auroc": {
+            "n": 85,
+            "scenario6_mean": 0.9288022782925751,
+            "scenario6_std": 0.005777565551489965,
+            "original_mean": 0.9179847035091313,
+            "original_std": 0.008591642577280628,
+            "difference_mean": 0.01081757478344356,
+            "difference_std": 0.009963153781169645,
+            "difference_ci_95": [
+                0.00866857230150821,
+                0.01296657726537891
+            ],
+            "t_statistic": 10.010194946959857,
+            "p_value": 5.543026760049816e-16,
+            "cohens_d": 1.0857580863490002,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": true
+        },
+        "balanced_accuracy": {
+            "n": 85,
+            "scenario6_mean": 0.8407248485360573,
+            "scenario6_std": 0.010859786042476161,
+            "original_mean": 0.8381214873625957,
+            "original_std": 0.013202495963416046,
+            "difference_mean": 0.00260336117346129,
+            "difference_std": 0.016550094613761064,
+            "difference_ci_95": [
+                -0.0009664115292804341,
+                0.006173133876203014
+            ],
+            "t_statistic": 1.4502517742200418,
+            "p_value": 0.1507121352590783,
+            "cohens_d": 0.15730189066693603,
+            "significant_at_0.05": false,
+            "significant_at_0.01": false,
+            "significant_at_0.001": false
+        },
+        "accuracy": {
+            "n": 85,
+            "scenario6_mean": 0.8508891928864567,
+            "scenario6_std": 0.01048301511498416,
+            "original_mean": 0.8407660738714091,
+            "original_std": 0.012150961362068138,
+            "difference_mean": 0.010123119015047881,
+            "difference_std": 0.01574305765806516,
+            "difference_ci_95": [
+                0.006727420150660628,
+                0.013518817879435135
+            ],
+            "t_statistic": 5.928362064905972,
+            "p_value": 6.557529061090429e-08,
+            "cohens_d": 0.6430211484274031,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": true
+        },
+        "precision": {
+            "n": 85,
+            "scenario6_mean": 0.7819117225272476,
+            "scenario6_std": 0.015586599897275911,
+            "original_mean": 0.7720983873474763,
+            "original_std": 0.017401345938257103,
+            "difference_mean": 0.009813335179771378,
+            "difference_std": 0.022965268215959855,
+            "difference_ci_95": [
+                0.004859841589450132,
+                0.014766828770092624
+            ],
+            "t_statistic": 3.9396221769943316,
+            "p_value": 0.00016801686505791156,
+            "cohens_d": 0.4273120212439557,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": true
+        },
+        "recall": {
+            "n": 85,
+            "scenario6_mean": 0.8450502152080348,
+            "scenario6_std": 0.01763465410397155,
+            "original_mean": 0.8269727403156385,
+            "original_std": 0.022853296408492936,
+            "difference_mean": 0.01807747489239598,
+            "difference_std": 0.027373567861185544,
+            "difference_ci_95": [
+                0.012173133098104468,
+                0.02398181668668749
+            ],
+            "t_statistic": 6.088577283429885,
+            "p_value": 3.287027106022466e-08,
+            "cohens_d": 0.6603989287793575,
+            "significant_at_0.05": true,
+            "significant_at_0.01": true,
+            "significant_at_0.001": true
+        }
+    }
+}

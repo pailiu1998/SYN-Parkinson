@@ -1,0 +1,90 @@
+{
+  "experiment_info": {
+    "name": "Chinese Bimodal Fusion (Smile + Finger)",
+    "date": "2026-01-20",
+    "time": "04:49:28",
+    "epochs": 244,
+    "training_time_seconds": 15,
+    "random_seed": 42,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "dropout_prob": 0.25
+  },
+  "data_info": {
+    "smile_participants": 56,
+    "finger_participants": 62,
+    "matched_participants": 55,
+    "test_set_size": 49,
+    "dev_set_size": 330
+  },
+  "dev_metrics": {
+    "accuracy": 0.81364,
+    "auroc": 0.89139,
+    "balanced_accuracy": 0.8005,
+    "f1_score": 0.75152,
+    "loss": 0.41169,
+    "ece": 0.06206
+  },
+  "test_metrics": {
+    "accuracy": 0.6327,
+    "auroc": 0.8000,
+    "f1_score": 0.5714,
+    "average_precision": 0.6836,
+    "weighted_accuracy": 0.6540,
+    "coverage": 0.9245,
+    "sensitivity": 0.8000,
+    "specificity": 0.5588,
+    "precision": 0.4444,
+    "npv": 0.8636,
+    "fpr": 0.4412,
+    "brier_score": 0.2169,
+    "ece": 0.1119,
+    "loss": 0.6199
+  },
+  "confusion_matrix": {
+    "tn": 19,
+    "fp": 15,
+    "fn": 3,
+    "tp": 12,
+    "total": 49
+  },
+  "performance_gap": {
+    "auroc_gap": -0.0914,
+    "accuracy_gap": -0.1809,
+    "f1_gap": -0.1801,
+    "balanced_accuracy_gap": -0.1211
+  },
+  "wandb": {
+    "run_url": "https://wandb.ai/roc-hci/park_final_experiments/runs/bj0jf5k6",
+    "project_url": "https://wandb.ai/roc-hci/park_final_experiments",
+    "run_name": "atomic-leaf-1759"
+  },
+  "key_findings": {
+    "strengths": [
+      "High sensitivity (80%) - good for screening",
+      "High NPV (86.36%) - reliable negative predictions",
+      "Good AUROC (80%) - decent discriminative ability",
+      "High coverage (92.45%) - confident predictions"
+    ],
+    "weaknesses": [
+      "Low specificity (55.88%) - high false positive rate",
+      "Low precision (44.44%) - many false alarms",
+      "Dev-Test gap (AUROC: 89.14% → 80%) - generalization issue",
+      "Small test set (49 samples) - unstable metrics"
+    ]
+  },
+  "recommendations": [
+    "Expand test set for more stable metrics",
+    "Adjust classification threshold for better precision-recall trade-off",
+    "Try ensemble methods with multiple random seeds",
+    "Investigate domain gap between training and Chinese test data",
+    "Consider temperature scaling for better calibration"
+  ],
+  "output_files": [
+    "fusion_model_results_test.json",
+    "fusion_model_results_dev.json",
+    "best_fusion_model.pth"
+  ],
+  "status": "completed_successfully"
+}
+

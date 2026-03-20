@@ -1,0 +1,80 @@
+nohup: ignoring input
+wandb: Starting wandb agent 🕵️
+2024-10-28 16:13:36,710 - wandb.wandb_agent - INFO - Running runs: []
+2024-10-28 16:13:36,893 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-28 16:13:36,893 - wandb.wandb_agent - INFO - Agent starting run with config:
+	batch_size: 512
+	dropout_prob: 0.3741460220489711
+	gamma: 0.5000514686678051
+	hidden_dim: 8
+	learning_rate: 0.1467985530225722
+	minority_oversample: yes
+	model_subset_choice: 0
+	momentum: 0.411004654338743
+	num_buckets: 10
+	num_epochs: 162
+	num_trials: 30
+	optimizer: RMSprop
+	patience: 5
+	query_dim: 256
+	sampler: SMOTE
+	scheduler: reduce
+	step_size: 13
+	uncertainty_weight: 55.913113861730594
+	use_scheduler: yes
+2024-10-28 16:13:36,894 - wandb.wandb_agent - INFO - About to run command: /usr/bin/env python uncertainty_aware_fusion.py --batch_size=512 --dropout_prob=0.3741460220489711 --gamma=0.5000514686678051 --hidden_dim=8 --learning_rate=0.1467985530225722 --minority_oversample=yes --model_subset_choice=0 --momentum=0.411004654338743 --num_buckets=10 --num_epochs=162 --num_trials=30 --optimizer=RMSprop --patience=5 --query_dim=256 --sampler=SMOTE --scheduler=reduce --step_size=13 --uncertainty_weight=55.913113861730594 --use_scheduler=yes
+python: can't open file '/localdisk2/pliu/park_multitask_fusion-main/code/unimodal_models/finger_tapping/uncertainty_aware_fusion.py': [Errno 2] No such file or directory
+2024-10-28 16:13:41,904 - wandb.wandb_agent - INFO - Running runs: ['mkuefgx5']
+2024-10-28 16:13:41,905 - wandb.wandb_agent - INFO - Cleaning up finished run: mkuefgx5
+2024-10-28 16:13:42,235 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-28 16:13:42,235 - wandb.wandb_agent - INFO - Agent starting run with config:
+	batch_size: 512
+	dropout_prob: 0.42453228163772067
+	gamma: 0.8865238600770363
+	hidden_dim: 4
+	learning_rate: 0.9219816587520778
+	minority_oversample: no
+	model_subset_choice: 4
+	momentum: 0.18358822159044844
+	num_buckets: 100
+	num_epochs: 171
+	num_trials: 30
+	optimizer: SGD
+	patience: 7
+	query_dim: 256
+	sampler: ADASYN
+	scheduler: reduce
+	step_size: 9
+	uncertainty_weight: 38.14677722950315
+	use_scheduler: no
+2024-10-28 16:13:42,236 - wandb.wandb_agent - INFO - About to run command: /usr/bin/env python uncertainty_aware_fusion.py --batch_size=512 --dropout_prob=0.42453228163772067 --gamma=0.8865238600770363 --hidden_dim=4 --learning_rate=0.9219816587520778 --minority_oversample=no --model_subset_choice=4 --momentum=0.18358822159044844 --num_buckets=100 --num_epochs=171 --num_trials=30 --optimizer=SGD --patience=7 --query_dim=256 --sampler=ADASYN --scheduler=reduce --step_size=9 --uncertainty_weight=38.14677722950315 --use_scheduler=no
+python: can't open file '/localdisk2/pliu/park_multitask_fusion-main/code/unimodal_models/finger_tapping/uncertainty_aware_fusion.py': [Errno 2] No such file or directory
+2024-10-28 16:13:47,246 - wandb.wandb_agent - INFO - Running runs: ['men83n02']
+2024-10-28 16:13:47,246 - wandb.wandb_agent - INFO - Cleaning up finished run: men83n02
+2024-10-28 16:13:47,515 - wandb.wandb_agent - INFO - Agent received command: run
+2024-10-28 16:13:47,515 - wandb.wandb_agent - INFO - Agent starting run with config:
+	batch_size: 512
+	dropout_prob: 0.3281550068004113
+	gamma: 0.5821173586020594
+	hidden_dim: 128
+	learning_rate: 0.1643303184211359
+	minority_oversample: yes
+	model_subset_choice: 0
+	momentum: 0.6230330622873818
+	num_buckets: 100
+	num_epochs: 209
+	num_trials: 30
+	optimizer: SGD
+	patience: 3
+	query_dim: 32
+	sampler: SMOTETomek
+	scheduler: reduce
+	step_size: 9
+	uncertainty_weight: 7.023575006912808
+	use_scheduler: no
+2024-10-28 16:13:47,516 - wandb.wandb_agent - INFO - About to run command: /usr/bin/env python uncertainty_aware_fusion.py --batch_size=512 --dropout_prob=0.3281550068004113 --gamma=0.5821173586020594 --hidden_dim=128 --learning_rate=0.1643303184211359 --minority_oversample=yes --model_subset_choice=0 --momentum=0.6230330622873818 --num_buckets=100 --num_epochs=209 --num_trials=30 --optimizer=SGD --patience=3 --query_dim=32 --sampler=SMOTETomek --scheduler=reduce --step_size=9 --uncertainty_weight=7.023575006912808 --use_scheduler=no
+python: can't open file '/localdisk2/pliu/park_multitask_fusion-main/code/unimodal_models/finger_tapping/uncertainty_aware_fusion.py': [Errno 2] No such file or directory
+2024-10-28 16:13:52,526 - wandb.wandb_agent - INFO - Running runs: ['7ipxrpso']
+2024-10-28 16:13:52,526 - wandb.wandb_agent - ERROR - Detected 3 failed runs in the first 60 seconds, shutting down.
+2024-10-28 16:13:52,526 - wandb.wandb_agent - INFO - To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Terminating and syncing runs. Press ctrl-c to kill.

@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.6515151515151515,
+  "auroc": 0.7328390068531625,
+  "f1_score": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "average_precision": 0.5439595666262562,
+  "brier_score": 0.2651400629407706,
+  "tn": 129,
+  "fp": 0,
+  "fn": 69,
+  "tp": 0,
+  "weighted_accuracy": 0.0,
+  "sensitivity": 0.0,
+  "specificity": 1.0,
+  "seed": 64
+}
